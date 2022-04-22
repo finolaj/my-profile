@@ -1,0 +1,118 @@
+
+
+body {
+	font-family: courier, monospace;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #f9ecec9c;
+	text-align: center;
+	margin: 0px;
+}
+
+h1 {
+	color: #d9b2b4;
+	font-weight: 550;
+	font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+	color: #d9b2b4;
+	font-weight: 400;
+	font-size: 25px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+a {
+	text-decoration: none;
+	color: #9aabbf;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #7c8a9b;
+}
+
+p {
+	color: #82a2c4;
+	letter-spacing: normal;
+	font-weight: lighter;
+}
+
+#pfp {
+	border-radius: 50%;
+}
+
+.card-white {
+	background: white;
+    padding: 30px;
+    padding-top: 10px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.btn-pink {
+	background-color: #f9ecec9c;
+	padding: 10px 10px;
+	border-radius: 4px;
+}
+
+btn-pink:hover {
+	color: #ebd7d79c;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	font-size: 35px;
+}
+
+.banner {
+	width: 100%;
+	background-image: url(https://www.appleyardflowers.com/blog/wp-content/uploads/2019/05/peonyhome-blog.jpg);
+	height: 150px;
+}
+
+.end {
+	background: #e9cada78;
+	padding: 15px;
+	padding-bottom: 20px;
+	height: 100px;
+	line-height: 10px;
+	margin-bottom: 10px;
+}
+
+.end h2 {
+	padding-bottom: 10px;
+	color: #9aabbf;
+}
+
+.column {
+	display: inline;
+}
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+
+
